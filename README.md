@@ -68,8 +68,9 @@ containing one record per emulated trial participant.
 | hypertension | integer | Binary indicator for hypertension diagnosis at trial baseline | 
 | dyslipidemia | integer | Binary indicator for dyslipidemia diagnosis at trial baseline |   
 | CVDHistory | integer | Binary indicator for I20 diagnosis before baseline | 
-| calendarYear | intefer | Year of trial start date | 
+| calendarYear | integer | Year of trial start date | 
 | nr_visits | integer | Number of general practitioners visits in the last 24 months | 
+| chronicIllnessHistory | integer | Indicator for history of heart failure, cancer, dementia or schizophrenia |  
 | sample_date | Date | Participants plasma sample obtainment date, from which cellular metabolite measurements are obtained by nuclear magnetic resonance. | 
 | VLDL_C | numeric | VLDL Cholesterol (mmol/L) from plasma sample | 
 | Clinical_LDL_C | numeric | Clinical LDL cholesterol (mmol/L) from plasma sample |
