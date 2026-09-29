@@ -1,4 +1,3 @@
-```r
 #install.packages("mice")
 library(mice)
 library(data.table)
