@@ -80,9 +80,10 @@ containing one record per emulated trial participant.
 ```
 ├── scripts/
 |   ├── 01_variable_derivation.R
-│   ├── 02_estimation.R
-│   ├── 03_bootstrap.R
-│   └── 04_figures.R
+│   ├── 02_filtration.R
+│   ├── 03_estimation.R
+│   ├── 04_bootstrap.R
+│   └── 05_figures.R
 ├── figures/
 ├── tables/
 └── README.md
@@ -101,6 +102,7 @@ Analyses were conducted in:
 
 ```r
 source("scripts/01_variable_derivation.R")
-source("scripts/02_estimation.R")
-source("scripts/03_bootstrap.R")
-source("scripts/04_figures.R")
+source("scripts/02_filtration.R")
+source("scripts/03_estimation.R")
+source("scripts/04_bootstrap.R")
+source("scripts/05_figures.R")
