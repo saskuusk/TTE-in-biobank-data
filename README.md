@@ -28,6 +28,7 @@ https://genomics.ut.ee/en/content/estonian-biobank
 
 ## Repository Structure
 
+```
 ├── scripts/
 │   ├── 01_estimation.R
 │   ├── 02_bootstrap.R
@@ -35,6 +36,7 @@ https://genomics.ut.ee/en/content/estonian-biobank
 ├── figures/
 ├── tables/
 └── README.md
+```
 
 ## Software Requirements
 
